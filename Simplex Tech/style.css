@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding:1rem;
+    background-color: #21A5D5;
+}
+header h5{
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.social-icons{
+    color: #bcdbe6;
+}
+header,.links,.link1,.link2,.social-icons{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+}
+nav,nav ul{
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    padding: 1rem;
+    gap: 3rem;
+    box-shadow: 0 2px 8px 1px lightgray;
+}
+nav button{
+    background-color: #21A5D5;
+    padding:1rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight:bolder;
+    text-transform: capitalize;
+
+
+}
+.list-icon{
+    font-size: 2rem;
+    display: none;
+}
+
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+    margin: auto;
+
+}
+.tittle-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.tittle-section h2{
+    font-size: 3rem;
+}
+.demo{
+    padding: 0.7rem 1.8rem;
+    background-color: #21A5D5;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    align-self: flex-start;
+}
+.industry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+    background-image: url(https://simplexts.net/wp-content/uploads/2023/12/Untitled-design-10-1-1.png);
+    padding: 10rem;
+    color: white;
+}
+.industry-image{
+    display: flex;
+    gap: 5rem;
+    margin:3rem auto;
+
+}
+@media only screen and (max-width:600px){
+    header{
+        justify-content: flex-start;
+    }
+    .links{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .menu-section,nav button{
+        display: none;
+    }
+    .list-icon{
+        display: block;
+    }
+    .front{
+        flex-direction: column;
+        width: 90%;
+    }
+    .tittle-section{
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .tittle-section h2{
+        font-size: 2rem;
+    }
+    .demo{
+        align-self: center;
+    }
+}

@@ -1,0 +1,3 @@
+ctrl+shift+P ->open keyboard shortcuts ->
+shift+!   ->boiler plate
+ctrl+shift+( arrow up,left,right)

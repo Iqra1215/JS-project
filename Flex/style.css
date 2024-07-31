@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    gap: 3rem;
+}
+.image-section{
+    width: 50%;
+
+}
+.title-section{
+font-size: 3rem;
+
+}
+.title-section p{
+    font-size: 1rem;
+    text-color:gray;
+}
+.btns button{
+    width: 40%;
+    padding:1rem ;
+    color:white;
+    background-color:#030F19 ;
+    border: none;
+    border-radius: 20px;
+    font-weight:bold ;
+}
+.btns button:nth-child(2){
+    background-color: #5B726C;
+}
